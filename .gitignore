@@ -8,7 +8,7 @@
 !build.gradle.kts
 
 # Allow .gitignore itself
-!.gitignore
+#!.gitignore
 
 
 #.gradle
