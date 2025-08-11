@@ -1,11 +1,14 @@
 # Ignore everything
 *
 
-# Allow only these
+# Allow src folder
 !src/
-!build.gradle.kts
-!.gitignore
 
+# Allow Gradle build file
+!build.gradle.kts
+
+# Allow .gitignore itself
+!.gitignore
 
 
 #.gradle
