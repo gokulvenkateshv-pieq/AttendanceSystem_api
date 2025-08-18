@@ -2,7 +2,7 @@
 *
 
 # Allow src folder
-!src/
+!../login_api/src/
 
 # Allow Gradle build file
 !build.gradle.kts

@@ -38,3 +38,8 @@ application {
 kotlin {
     jvmToolchain(21) // JDK 21
 }
+
+tasks.named<JavaExec>("run") {
+    args = listOf("server", "src/main/resources/config.yml")
+}
+
